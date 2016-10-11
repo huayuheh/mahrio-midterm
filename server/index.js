@@ -10,4 +10,6 @@ const CONFIG= require('./config/env')( process.env )
 // Load accessible url routes. Minimum root HTML page
 require('./routes/index')( SERVER );
 
+require('./config/sockets')( SERVER );
+
 module.exports = SERVER;
