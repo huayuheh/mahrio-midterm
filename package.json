@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/ComputerEnchiladas/mahrio-midterm/issues"
   },
-  "homepage": "https://github.com/ComputerEnchiladas/mahrio-midterm#readme"
+  "homepage": "https://github.com/ComputerEnchiladas/mahrio-midterm#readme",
+  "dependencies": {
+    "boom": "2.10.1",
+    "ejs": "2.4.2",
+    "good": "6.3.0",
+    "good-console": "5.3.1",
+    "hapi": "8.8.1",
+    "node-env-file": "0.1.8"
+  }
 }
