@@ -14,6 +14,8 @@ function main( server ){
       console.log('goodbye socket...' + socket.id ); // Record the disconnection
     });
   });
+
+  return io;
 }
 
 module.exports = main;
