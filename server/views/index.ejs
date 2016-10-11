@@ -2,11 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Hello</title>
+    <title>Motion Client</title>
+    <link href="/assets/css/index.css" type="text/css" rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
-<h1>Hello World</h1>
+<body ng-app="mahrio-motion-client" ng-controller="MainCtrl">
+  <div ng-class="{true: 'active'}[motion]" class="led">
+
+  </div>
 <script src="/assets/socket.io-client/socket.io.js"></script>
+<script src="/assets/angular/angular.min.js"></script>
 <script src="/assets/js/index.js"></script>
 </body>
 </html>
